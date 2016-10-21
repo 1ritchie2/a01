@@ -35,5 +35,16 @@ def run_tests():
 
 
 # Edit this code
-def multi_sum(n):
 
+def multi_sum(n):
+     count = 0
+     for i in range(7, n+1, 7):
+         if i %5 > 0:
+             count = count + i
+     print(count)
+
+    
+    
+
+ 
+    
